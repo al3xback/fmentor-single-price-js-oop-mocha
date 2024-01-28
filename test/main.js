@@ -22,8 +22,8 @@ describe('DOM', () => {
 		);
 		document.body.appendChild(subtitleEl);
 
-		const issubtitleElExist = !!document.querySelector('.highlight');
-		assert.ok(issubtitleElExist);
+		const isSubtitleElExist = !!document.querySelector('.highlight');
+		assert.ok(isSubtitleElExist);
 	});
 
 	it("should be able to return element attribute data via 'Component' class method", () => {
